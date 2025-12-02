@@ -1,3 +1,37 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+.import/
+*.import
+
+# Exported builds
+export/
+build/
+bin/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Godot editor cache
+.cache/
+.editor_settings-*.tres
+cache/
+
+# Crash dumps
+crashdumps/
+
+# Mono (if not using C# delete this block)
+.mono/
+data_*/
+
+# System-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# User-specific configs
+*.cfg
