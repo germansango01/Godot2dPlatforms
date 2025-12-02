@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://yj7fw37ohw6x"]
+
+[ext_resource type="PackedScene" uid="uid://chrxdc41fie5" path="res://Scenes/Player/ninja_frog.tscn" id="1_tlcug"]
+[ext_resource type="PackedScene" uid="uid://bjfjw23uv2fg3" path="res://Scenes/Terrains/forest.tscn" id="2_4dpyx"]
+[ext_resource type="PackedScene" uid="uid://dd56sptckju5t" path="res://Scenes/Backgrounds/mountain_day.tscn" id="3_3mqfk"]
+
+[node name="Level1" type="Node2D"]
+
+[node name="TileMapLayer" parent="." instance=ExtResource("2_4dpyx")]
+position = Vector2(0, -3)
+
+[node name="NinjaFrog" parent="." instance=ExtResource("1_tlcug")]
+position = Vector2(57, 563)
+
+[node name="ParallaxBackground" parent="." instance=ExtResource("3_3mqfk")]

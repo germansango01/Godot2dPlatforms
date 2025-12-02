@@ -1,0 +1,54 @@
+[gd_scene load_steps=6 format=3 uid="uid://dd56sptckju5t"]
+
+[ext_resource type="Texture2D" uid="uid://mfinkr1377mi" path="res://Assets/Background/layers/sky.png" id="1_e1npi"]
+[ext_resource type="Texture2D" uid="uid://d2gteml0f7qj7" path="res://Assets/Background/layers/rocks_1.png" id="2_klxu8"]
+[ext_resource type="Texture2D" uid="uid://dv7bcrxqqv2dx" path="res://Assets/Background/layers/clouds_1.png" id="2_u4icu"]
+[ext_resource type="Texture2D" uid="uid://c1abo5bcve2v6" path="res://Assets/Background/layers/rocks_2.png" id="3_yhpua"]
+[ext_resource type="Texture2D" uid="uid://e7d568m5m74g" path="res://Assets/Background/layers/clouds_2.png" id="4_ulayy"]
+
+[node name="MountainDay" type="ParallaxBackground"]
+
+[node name="Sky" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.2, 0.2)
+motion_mirroring = Vector2(1280, 0)
+
+[node name="Sky" type="Sprite2D" parent="Sky"]
+position = Vector2(642.5, 361.24994)
+scale = Vector2(0.6671875, 0.6699074)
+texture = ExtResource("1_e1npi")
+
+[node name="Cloud1" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.3, 0.3)
+motion_mirroring = Vector2(1280, 0)
+
+[node name="Clouds1" type="Sprite2D" parent="Cloud1"]
+position = Vector2(638, 360)
+scale = Vector2(0.6708333, 0.67592597)
+texture = ExtResource("2_u4icu")
+
+[node name="Cloud2" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.4, 0.4)
+motion_mirroring = Vector2(1280, 0)
+
+[node name="Clouds2" type="Sprite2D" parent="Cloud2"]
+position = Vector2(643.3333, 359)
+scale = Vector2(0.6722222, 0.6722222)
+texture = ExtResource("4_ulayy")
+
+[node name="Rock1" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.5, 0.5)
+motion_mirroring = Vector2(1280, 0)
+
+[node name="Rocks1" type="Sprite2D" parent="Rock1"]
+position = Vector2(644, 355)
+scale = Vector2(0.66886574, 0.68148154)
+texture = ExtResource("2_klxu8")
+
+[node name="Rock2" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.6, 0.6)
+motion_mirroring = Vector2(1280, 0)
+
+[node name="Rocks2" type="Sprite2D" parent="Rock2"]
+position = Vector2(640, 360.5)
+scale = Vector2(0.6697917, 0.67685187)
+texture = ExtResource("3_yhpua")
