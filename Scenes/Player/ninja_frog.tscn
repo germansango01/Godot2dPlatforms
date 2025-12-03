@@ -508,7 +508,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v3vsg"]
-size = Vector2(18, 21)
+size = Vector2(18, 22)
 
 [node name="NinjaFrog" type="CharacterBody2D"]
 scale = Vector2(2, 2)
@@ -519,7 +519,7 @@ sprite_frames = SubResource("SpriteFrames_bf61l")
 animation = &"stuck_on_wall"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 4.5)
+position = Vector2(0, 4)
 shape = SubResource("RectangleShape2D_v3vsg")
 
 [node name="Camera2D" type="Camera2D" parent="."]

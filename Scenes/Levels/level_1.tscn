@@ -6,10 +6,11 @@
 
 [node name="Level1" type="Node2D"]
 
-[node name="TileMapLayer" parent="." instance=ExtResource("2_4dpyx")]
-position = Vector2(0, -3)
+[node name="MountainDay" parent="." instance=ExtResource("3_3mqfk")]
+
+[node name="Forest" parent="." instance=ExtResource("2_4dpyx")]
+position = Vector2(-635, -714)
+scale = Vector2(2, 2)
 
 [node name="NinjaFrog" parent="." instance=ExtResource("1_tlcug")]
-position = Vector2(1873, 558)
-
-[node name="ParallaxBackground" parent="." instance=ExtResource("3_3mqfk")]
+position = Vector2(155, 570)
