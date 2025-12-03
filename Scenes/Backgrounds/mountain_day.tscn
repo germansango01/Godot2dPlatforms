@@ -10,45 +10,45 @@
 
 [node name="Sky" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0.2, 0.2)
-motion_mirroring = Vector2(1280, 0)
+motion_mirroring = Vector2(1536, 0)
 
 [node name="Sky" type="Sprite2D" parent="Sky"]
-position = Vector2(642.5, 361.24994)
-scale = Vector2(0.6671875, 0.6699074)
+position = Vector2(760, 350)
+scale = Vector2(0.8, 0.8)
 texture = ExtResource("1_e1npi")
 
 [node name="Cloud1" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0.3, 0.3)
-motion_mirroring = Vector2(1280, 0)
+motion_mirroring = Vector2(1536, 0)
 
 [node name="Clouds1" type="Sprite2D" parent="Cloud1"]
-position = Vector2(638, 360)
-scale = Vector2(0.6708333, 0.67592597)
+position = Vector2(760, 350)
+scale = Vector2(0.8, 0.8)
 texture = ExtResource("2_u4icu")
 
 [node name="Cloud2" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0.4, 0.4)
-motion_mirroring = Vector2(1280, 0)
+motion_mirroring = Vector2(1536, 0)
 
 [node name="Clouds2" type="Sprite2D" parent="Cloud2"]
-position = Vector2(643.3333, 359)
-scale = Vector2(0.6722222, 0.6722222)
+position = Vector2(760, 350)
+scale = Vector2(0.8, 0.8)
 texture = ExtResource("4_ulayy")
 
 [node name="Rock1" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0.5, 0.5)
-motion_mirroring = Vector2(1280, 0)
+motion_mirroring = Vector2(1536, 0)
 
 [node name="Rocks1" type="Sprite2D" parent="Rock1"]
-position = Vector2(644, 355)
-scale = Vector2(0.66886574, 0.68148154)
+position = Vector2(760, 350)
+scale = Vector2(0.8, 0.8)
 texture = ExtResource("2_klxu8")
 
 [node name="Rock2" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0.6, 0.6)
-motion_mirroring = Vector2(1280, 0)
+motion_mirroring = Vector2(1536, 0)
 
 [node name="Rocks2" type="Sprite2D" parent="Rock2"]
-position = Vector2(640, 360.5)
-scale = Vector2(0.6697917, 0.67685187)
+position = Vector2(760, 350)
+scale = Vector2(0.8, 0.8)
 texture = ExtResource("3_yhpua")

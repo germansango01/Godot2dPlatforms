@@ -9,8 +9,8 @@
 [node name="MountainDay" parent="." instance=ExtResource("3_3mqfk")]
 
 [node name="Forest" parent="." instance=ExtResource("2_4dpyx")]
-position = Vector2(-635, -714)
+position = Vector2(-9, -712)
 scale = Vector2(2, 2)
 
 [node name="NinjaFrog" parent="." instance=ExtResource("1_tlcug")]
-position = Vector2(155, 570)
+position = Vector2(1597, 623)

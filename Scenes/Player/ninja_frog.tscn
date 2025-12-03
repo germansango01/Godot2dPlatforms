@@ -524,7 +524,7 @@ shape = SubResource("RectangleShape2D_v3vsg")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(0, 4)
-limit_top = 0
+limit_top = -400
 limit_bottom = 720
 
 [node name="CoyoteTimer" type="Timer" parent="."]
