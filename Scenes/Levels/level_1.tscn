@@ -10,6 +10,6 @@
 position = Vector2(0, -3)
 
 [node name="NinjaFrog" parent="." instance=ExtResource("1_tlcug")]
-position = Vector2(57, 563)
+position = Vector2(97, 631)
 
 [node name="ParallaxBackground" parent="." instance=ExtResource("3_3mqfk")]
