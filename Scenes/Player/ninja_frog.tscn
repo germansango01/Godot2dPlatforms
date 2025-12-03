@@ -503,12 +503,12 @@ animations = [{
 "texture": SubResource("AtlasTexture_fkf4l")
 }],
 "loop": true,
-"name": &"wall_jump",
+"name": &"stuck_on_wall",
 "speed": 12.0
 }]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ai4ye"]
-height = 22.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v3vsg"]
+size = Vector2(18, 21)
 
 [node name="NinjaFrog" type="CharacterBody2D"]
 scale = Vector2(2, 2)
@@ -516,11 +516,11 @@ script = ExtResource("1_v3vsg")
 
 [node name="Animations" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_bf61l")
-animation = &"idle"
+animation = &"stuck_on_wall"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0.5, 4)
-shape = SubResource("CapsuleShape2D_ai4ye")
+position = Vector2(0, 4.5)
+shape = SubResource("RectangleShape2D_v3vsg")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(0, 4)
